@@ -2,8 +2,10 @@
 from random import shuffle
 
 def shuffle(c):
-    a=shuffle(c)
-    print(a)
+    shuffle(c)
+    return c
+
 c=['a','aaa','bvc']
 
-shuffle(c)
+b = shuffle(c)
+print(b)
