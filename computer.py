@@ -1,11 +1,11 @@
 '''write a prgm to shuffle and print a specified list'''
 from random import shuffle
 
-def shuffle(c):
+def shuffle_Color(c):
     shuffle(c)
     return c
 
-c=['a','aaa','bvc']
+c=['red', 'orange', 'white'] 
 
-b = shuffle(c)
+b = shuffle_Color(c)
 print(b)
