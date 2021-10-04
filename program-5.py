@@ -1,3 +1,4 @@
+'''write a program to remove duplicates from a list'''
 def dup(lst):
     dup=[]
     rst=[]
